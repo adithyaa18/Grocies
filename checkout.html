@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body> <link rel="stylesheet" href="Style\checkout.css">
+    <link rel="manifest" href ="manifest.json">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16 (1)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16 (1)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16 (1)/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    <header>
+        <img src="Images\logo copy.png" width="300"><br><br><br>
+        <nav>
+            <a href="home.html" class="about"><button class="nav_button">Home</button></a>
+            <div class="dropdown">
+                <button class="dropbtn">Products</button>
+                <div class="dropdown-content">
+                  <a href="dariy products.html">Dairy Products</a>
+                  <a href="vegetbles.html">Vegetables</a>
+                  <a href="cosmetics.html">Cosmetics</a>
+                </div>
+            </div>
+
+                <a href="about us.html" class="about"><button class="nav_button">About Us</button></a>
+                <a href="loyalty registration.html" class="form"><button class="nav_button">Loyalty</button></a>
+            
+                <input type="text" placeholder="Search..">
+        </nav>
+
+    </header>
+    <main>
+        <div class="place_an_order">
+            <h2>Place Your Order</h2>
+        </div>
+        <div class="containter">
+            <form class="checkout__form">
+                <fieldset>
+                    <h4>Billing Details</h4>
+
+                    <div class="checkout__input">
+                        <p>First Name<span>*</span></p>
+                        <input type="text" name="first_name" required>
+                    </div>
+
+                    <div class="checkout__input">
+                        <p>Last Name<span>*</span></p>
+                        <input type="text" name="last_name" required>
+                    </div>
+
+                    <div class="checkout__input">
+                        <p>Address<span>*</span></p>
+                        <input type="text" placeholder="Street Address" name="street_address" required>
+                        <input type="text" placeholder="Apartment, suite,(optional)" name="address_optional">
+                    </div>
+
+                    <div class="checkout__input">
+                        <p>Town/City<span>*</span></p>
+                        <input type="text" name="city" required>
+                    </div>
+
+                    <div class="checkout__input">
+                        <p>State/Province<span>*</span></p>
+                        <input type="text" name="state" required>
+                    </div>
+
+                    <div class="checkout__input">
+                        <p>Phone Number<span>*</span></p>
+                        <input type="text" placeholder="Phone Number 1" name="phnum1" required>
+                        <input type="text" placeholder="phone Number 2" name="phnum2" required>
+                    </div>
+
+                    <div class="checkout__input">
+                        <p>Email<span>*</span></p>
+                        <input type="email" name="email" required>
+                    </div>
+            
+                    <div class="checkout__order">
+                        <h4>Your Order</h4>
+                        <div class="checkout__order__products">Products <span>Total</span></div>
+                        <ul>
+                            <li>Pumpkin <span>RS750.00</span></li>
+                            <li>Fresh Milk <span>RS400.00</span></li>
+                            <li>Sunsilk Black Shampoo <span>RS500.00</span></li>
+                        </ul>
+                        <div class="checkout__order__subtotal">Subtotal <span>RS1650.00</span></div>
+                        <div class="checkout__order__total">Total <span>RS1650.00</span></div>
+                        <button type="submit" class="site-btn">PLACE ORDER</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <dl>
+            <dd>Address: Hettiyawatta,Rajagiriya </dd>
+            <dd>Phone: +94 112 556 888</dd>
+            <dd>Email: freshpicks@gmail.com</dd>
+        </dl>
+    </footer>
+</body>
+</html>

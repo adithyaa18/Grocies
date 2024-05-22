@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Order</title>
+        <link rel="stylesheet" href="Style\order.css">
+        <link rel="manifest" href ="manifest.json">
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16 (1)/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16 (1)/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16 (1)/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    
+    </head>
+    <body>
+        <header>
+            <img src="Images\logo copy.png" width="300"><br><br><br>
+            <nav>
+                <a href="home.html" class="about"><button class="nav_button">Home</button></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Products</button>
+                    <div class="dropdown-content">
+                      <a href="dariy products.html">Dairy Products</a>
+                      <a href="vegetbles.html">Vegetables</a>
+                      <a href="cosmetics.html">Cosmetics</a>
+                    </div>
+                </div>
+    
+                    <a href="about us.html" class="about"><button class="nav_button">About Us</button></a>
+                    <a href="loyalty registration.html" class="form"><button class="nav_button">Loyalty</button></a>
+                
+                    <input type="text" placeholder="Search..">
+            </nav>
+    
+        </header>
+
+    <main>
+        <h1>Order NOW!</h1>
+        <div class="shoping__cart__table">
+            <table cellspacing="0" width="100%" class="table">
+                <thead>
+                    <tr>
+                        <th class="shoping__product">Products</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="shoping__cart__item"> <img src="Images/pumpkin.png" alt=""><h5>Vegetable’s Package</h5></td>
+                        <td class="shoping__cart__price">RS750.00</td>
+                        <td class="shoping__cart__quantity">
+                            <div class="quantity">
+                                <div class="pro-qty">
+                                    <input type="number" value="0">
+                                </div>
+                            </div>
+                        </td>
+                        <td class="shoping__cart__total"> --- </td>
+                    </tr>
+                    <tr>
+                        <td class="shoping__cart__item"> <img src="Images/Ambewela Fresh milk.jpg" alt=""> <h5> Ambewela Fresh Milk</h5></td>
+                        <td class="shoping__cart__price">RS750.00</td>
+                        <td class="shoping__cart__quantity">
+                            <div class="quantity">
+                                <div class="pro-qty">
+                                    <input type="number" value="0">
+                                </div>
+                            </div>
+                        </td>
+                        <td class="shoping__cart__total"> --- </td>
+                    </tr>
+
+                    <tr>
+                        <td class="shoping__cart__item"> <img src="Images/Sunsilk black shampoo.jpg" alt=""> <h5>Sunsilk Black Shampoo</h5></td>
+                        <td class="shoping__cart__price">RS750.00</td>
+                        <td class="shoping__cart__quantity">
+                            <div class="quantity">
+                                <div class="pro-qty">
+                                    <input type="number" value="0">
+                                </div>
+                            </div>
+                        </td>
+                        <td class="shoping__cart__total"> --- </td>
+                    </tr>
+                </tbody>
+            </table>
+                <div class="shoping__checkout">
+                    <h5>Cart Total</h5>
+                    <ul>
+                        <li>Subtotal <span>---</span></li>
+                        <li>Total <span>---</span></li>
+                    </ul>
+                    <a href="./checkout.html" class="primary-btn">PROCEED TO CHECKOUT</a>
+                </div>
+    </main>
+
+</body>
+</html>
