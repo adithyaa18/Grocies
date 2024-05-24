@@ -25,7 +25,7 @@ h2{
 /*navigation bar*/
 
 nav {
-    display: flex;
+    display: block;
     justify-content: space-between; /* Space out the items */
     align-items: center; /* Center-align items vertically */
     padding: 10px 20px; /* Add some padding */
@@ -157,7 +157,7 @@ nav {
     background-color: #3367d6; /* Darken on hover */
 }
 
-@media  screen and (max-width:1080px) {
+@media  screen and (max-width:600px) {
   
   nav input[type=text]{
     white-space: pre-line;

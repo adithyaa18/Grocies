@@ -108,7 +108,7 @@ nav {
   background-color:rgb(106, 161, 33); /* Dark background color */
   
 }
-@media  screen and (max-width:1080px) {
+@media  screen and (max-width:600px) {
   body{
       background-color: rgb(106, 161, 33);
   }
@@ -124,5 +124,8 @@ nav {
   }
   .sec1,.sec2,.sec3,.sec4,.sec4,.sec5{
     font-size: 20px;
+  }
+  img{
+    height: auto;
   }
 }

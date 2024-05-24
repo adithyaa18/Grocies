@@ -25,7 +25,7 @@ h2{
 /*navigation bar*/
 
 nav {
-  display: flex;
+  display: block;
   justify-content: space-between; /* Space out the items */
   align-items: center; /* Center-align items vertically */
   padding: 10px 20px; /* Add some padding */
@@ -102,17 +102,21 @@ nav input[type=text] {
 }
 
 .venue_container{
-  display: flex;
+  display: block;
   justify-content: space-between;
+  width: 93%;
   }
 
 .venue-description{
-  width:30%;
+  width:100%;
   background-color: white;
   padding: 20px;
   text-align: center;
   color: black;
   font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .grid-container {
@@ -175,7 +179,7 @@ a{
     color:black;
 }
 
-  @media  screen and (max-width:1080px) {
+  @media  screen and (max-width:600px) {
     
     nav input[type=text]{
       white-space: pre-line;
@@ -191,14 +195,20 @@ a{
     .venue_container {
       max-width: 1170px;
       padding: 10px;
+      display: block;
+      text-align: center;
     }
 
     .venue-description{
-      font-size: 10px;
+      font-size: 20px;
+      margin-bottom: 20px;
+      width: 800px;
+      margin-right: 10px;
     }
 
     .vegetable{
       display: block;
+      height: 30%;
     }
 
     .venue img{
@@ -223,6 +233,9 @@ a{
     }
     .quantity {
       font-size: 17px;
+    }
+    .grid-container{
+      height: 30px;
     }
   }
   
