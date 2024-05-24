@@ -158,7 +158,12 @@ nav {
 }
 
 @media  screen and (max-width:600px) {
-  
+  header{
+    text-align: center;
+  }
+  nav{
+    display: block;
+  }
   nav input[type=text]{
     white-space: pre-line;
     width: 300px;
