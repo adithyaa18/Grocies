@@ -78,7 +78,6 @@ button{
 
 }
 nav input[type=text] {
-  float: center;
   padding: 6px;
   border: none;
   margin-top: 10px;
@@ -87,7 +86,7 @@ nav input[type=text] {
   width: 550px;
 }
 nav {
-  display: flex;
+  display: block;
   justify-content: space-between; /* Space out the items */
   align-items: center; /* Center-align items vertically */
   padding: 10px 20px; /* Add some padding */
@@ -109,10 +108,11 @@ h4{
 
 }
 .shampoo ,.conditioner ,.face_wash, .face_cream, .perfumes{
-  max-width: 1400px; /* Limit the width for better readability */
+  max-width: 600px; /* Limit the width for better readability */
   margin: 0 auto; /* Center align the content */
   padding: 20px;
   background-color: rgb(216, 228, 214);
+
 }
 
 td {
@@ -165,10 +165,77 @@ a {
   font-size: 1.1em;
 }
 
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
 .order-button:hover {
   background-color: #3367d6; /* Darken on hover */
 }
-@media  screen and (max-width:1080px) {
+@media  screen and (max-width:600px) {
   
   nav input[type=text]{
     white-space: pre-line;

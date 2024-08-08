@@ -46,7 +46,6 @@ nav {
 
 }
 nav input[type=text] {
-  float: center;
   padding: 6px;
   border: none;
   margin-top: 10px;
@@ -179,6 +178,73 @@ a{
     color:black;
 }
 
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
   @media  screen and (max-width:600px) {
     
     nav input[type=text]{
@@ -229,13 +295,18 @@ a{
     }
 
     .name{
-      font-size: 17px;
+      font-size: 10px;
     }
     .quantity {
-      font-size: 17px;
+      font-size: 10px;
     }
     .grid-container{
-      height: 30px;
+      height: 20px;
+    }
+
+    .vegetable img {
+      height: 300px;
+      width: 250px;
     }
   }
   

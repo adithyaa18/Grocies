@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(179, 225, 172);
 }
 
 header,footer{
@@ -12,8 +11,6 @@ header,footer{
     color:rgb(6, 6, 6);
     text-align: center;
   }
-
-
 
 h1,h2 {
     text-align: center;
@@ -27,9 +24,9 @@ h2{
 nav {
     display: block;
     justify-content: space-between; /* Space out the items */
-    align-items: center; /* Center-align items vertically */
+    align-items: center; 
     padding: 10px 20px; /* Add some padding */
-    background-color:rgb(106, 161, 33); /* Dark background color */
+    background-color:rgb(106, 161, 33); 
 }
 
 .nav_button{
@@ -46,7 +43,6 @@ nav {
   
   }
   nav input[type=text] {
-    float: center;
     padding: 6px;
     border: none;
     margin-top: 10px;
@@ -96,6 +92,9 @@ nav {
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 30px;
+    background-color: #e5e5e5;
+    border: 1px solid #ddd; 
+    border-radius: 5px; /* Rounded corners */
 }
 
 .container {
@@ -114,14 +113,14 @@ nav {
 .product {
     flex: 1 1 200px; /* Adjust item size and flexibility */
     padding: 10px;
-    border: 1px solid #ddd; /* Light gray border */
+    border: 1px solid #ddd; 
     border-radius: 5px; /* Rounded corners */
     text-align: center;
     background-color: white; 
 }
 
 .product img {
-    max-width: 100%; /* Ensure images are responsive */
+    max-width: 100%; 
     height: auto;
 }
 
@@ -144,17 +143,84 @@ nav {
 .order-button {
     display: inline-block; /* Allow for inline styling */
     padding: 10px 20px; /* Padding for the button */
-    background-color: #4285f4; /* Blue background */
-    color: white; /* White text color */
-    border: none; /* No border */
+    background-color: #4285f4;
+    color: white;
+    border: none;
     border-radius: 5px; /* Rounded corners */
-    text-align: center; /* Center-align text */
-    text-decoration: none; /* No underline */
+    text-align: center; 
+    text-decoration: none; 
     font-size: 1.1em;
 }
 
 .order-button:hover {
     background-color: #3367d6; /* Darken on hover */
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
 }
 
 @media  screen and (max-width:600px) {
@@ -178,6 +244,7 @@ nav {
   .container {
 		max-width: 1170px;
 	}
+  
     
   }
   
